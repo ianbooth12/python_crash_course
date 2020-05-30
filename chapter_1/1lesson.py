@@ -1,7 +1,7 @@
 message = "Hello Python World!"
 print (message)
 
-message = "Hello Python Nour Bitch!"
+message = "Hello Python!"
 print (message)  # Despite changing the value of message, the first printed message is the original, as print was requested before the change
 
 name = "nore sheblack"

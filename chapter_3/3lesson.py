@@ -20,4 +20,21 @@ print(foods)  # The insert command can add a new item at a specific point in the
 foods.insert(-1, "orange")  # Insert cannot use -1 to mean the end of the list like .append can
 
 del(foods[0])
+print(foods)  # "Del" command deletes an item from the list at the given index value
+
+popped_food = foods.pop()
+print(popped_food)
+print(foods)  # The pop command will remove the last item from a list and allow it to be used later, for example as a variable value.
+
+best_food = foods.pop(0)
+print(best_food)  # A specific index value can also be popped if specified.
+
 print(foods)
+foods.remove("carrot")
+print(foods)  # Using .remove on a list allows you to type the name of a specific item you wish to remove from the list.
+
+fruit = "orange"
+foods.remove(fruit)
+print(foods)  # .remove also works if removing a string which is defined by a variable
+print(f'{fruit.title()} is my favorite treat to go with a meal.')  # Once removed from the list, "orange" is still accessible through its variable, fruit.
+

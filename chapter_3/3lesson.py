@@ -38,3 +38,27 @@ foods.remove(fruit)
 print(foods)  # .remove also works if removing a string which is defined by a variable
 print(f'{fruit.title()} is my favorite treat to go with a meal.')  # Once removed from the list, "orange" is still accessible through its variable, fruit.
 
+cars = ["toyota", "mazda", "audi", "chevrolet", "bmw"]
+print(cars)
+cars.sort()
+print(cars)  # Using the sort command puts the list in alphabetical order
+cars.sort(reverse=True)
+print(cars)  # Sorting with the reverse condition as true will sort to reverse alphabetical order
+
+cars = ["toyota", "mazda", "audi", "chevrolet", "bmw"]
+print("Listed below is the list in its original order")
+print(cars)
+print("Now the list will be temporarily sorted alphabetically")
+print(sorted(cars))
+print("The original format of the list will return now.")
+print(cars)  # Using the "sorted" command rather than the sort modifier only temporarily changes the list sorting.
+
+cars.reverse()
+print(cars)
+cars.reverse()
+print(cars)  # The reverse MODIFIER doesn't sort to reverse alphabetic order, but simply reverses the order of the items.
+
+print(cars)
+len (cars)  # In a terminal command center, the argument lens will return the amount of items in the list.
+
+print(cars[-1].upper())  # Often times, Python's index starting at 0 will throw people off when trying to call the last term, but using -1 simplifies this process.

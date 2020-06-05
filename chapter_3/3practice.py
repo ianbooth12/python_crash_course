@@ -30,3 +30,42 @@ print(f"Good news, {invite_list[1].title()}, you're also invited!")
 del invite_list[1]
 del invite_list[0]
 print(invite_list)  # Shrinking Guest List
+
+locations = ["rome", "canada", "paris", "spain", "australia"]  # Seeing the World
+print(locations)
+print(sorted(locations))
+print(locations)
+print("Despite sorting the locations alphabetically, the original order of the items is retained")
+print("The list will now be printed in reverse alphabetical order")
+print(sorted(locations,reverse=True))
+print("As shown below, the list is still in its original order despite our different sortings")
+print(locations)
+locations.reverse()
+print(locations)
+print("The list is now permanently reversed, but it can be changed back by repeating the command")
+locations.reverse()
+print(locations)
+locations.sort()
+print(locations)
+print("The list is now printed in alphabetical order permanently, but it can be changed with another command")
+locations.sort(reverse=True)
+print(locations)  # Seeing the World
+
+len(invite_list)  # (Dinner Guests) In terminal, this command would return a 0, as we emptied the guest list when working with it last
+
+languages = ["english", "spanish", "french"]  # Every Function
+languages.append("hebrew")
+print(languages)
+languages.insert(2,"german")
+print(languages)
+del languages[4]
+print(languages)
+languages.remove("german")
+print(languages)
+languages.pop(2)
+print(languages)
+first_language = "english"
+languages.remove(first_language)
+print(languages)
+print(f"The first language I learned was {first_language.title()}.")
+print(f"The second language I learned was {languages.pop(0).title()}.")  # Every Function

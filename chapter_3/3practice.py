@@ -51,7 +51,7 @@ print("The list is now printed in alphabetical order permanently, but it can be 
 locations.sort(reverse=True)
 print(locations)  # Seeing the World
 
-len(invite_list)  # (Dinner Guests) In terminal, this command would return a 0, as we emptied the guest list when working with it last
+len(invite_list)  # (Dinner Guests) In terminal, this returns a 0 (empty list).
 
 languages = ["english", "spanish", "french"]  # Every Function
 languages.append("hebrew")

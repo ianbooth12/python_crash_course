@@ -14,9 +14,9 @@ print(name)
 print(name.lstrip())
 print(f"The winner for today is\n\t{name.title().strip()}\nCongratulations!")  # Stripping Names
 
-print(3+5)
+print(3+5)  # Number Eight
 print(16/2)
-print(2*4)  # Number eight
+print(2*4)  
 
 FAVORITE_NUMBER = 12
 print(f'My favorite number is {FAVORITE_NUMBER}')  # Favorite Number

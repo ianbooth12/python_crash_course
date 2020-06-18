@@ -2,12 +2,12 @@ message = "Hello Python World!"
 print (message)
 
 message = "Hello Python!"
-print (message)  # Despite changing the value of message, the first printed message is the original, as print was requested before the change
+print (message)  # The value changes, but previous statements do not change
 
 name = "nore sheblack"
 print(name.title())
 print(name.upper())
-print(name.lower())  # Printing with these commands give different results (See command prompt)
+print(name.lower())  # These modifiers change grammer of values.
 
 first_name = "ian"
 last_name = "booth"
@@ -25,7 +25,7 @@ print(f"Hello, {full_name.title()}.")
 message = f"Hello, {full_name.title()}"
 print(message)
 print(message.upper())
-print(message.lower())  # F strings are used to insert strings defined as variables into a larger string, which can then be defined as another variable, etc.
+print(message.lower())  # F strings are used to insert variables into strings
 
 print("Kadin")
 print("\tKadin")
@@ -38,5 +38,5 @@ favorite_food = "pizza "
 print(favorite_food)
 favorite_food.strip()
 print(favorite_food)
-print(f"My favorite food is {favorite_food.rstrip()}!")  # This only shows in terminal, but stripping white space changes resulting text
+print(f"My favorite food is {favorite_food.rstrip()}!")  # Stripping modifiers
 

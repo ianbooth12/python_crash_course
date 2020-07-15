@@ -41,3 +41,10 @@ if 'sausage' in requested_toppings:
 	print("Yes, you can get sausage")
 else:
 	print("Sorry, we don't have sausage.")
+
+approved_members = ["jad", "denisse", "nicolas"]
+member = 'kadin'
+
+if member not in approved_members:
+	print(f"Sorry, {member.title()}, but you're not on the list.")
+

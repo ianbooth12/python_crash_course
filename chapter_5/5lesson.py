@@ -48,3 +48,32 @@ member = 'kadin'
 if member not in approved_members:
 	print(f"Sorry, {member.title()}, but you're not on the list.")
 
+age = 15  # Elif statements (Checking for 1 condition)
+if age < 6:
+	print("Your entry fee will be $5.")
+elif age < 18:
+	print("Your entry fee will be $8.")
+elif age < 65:
+	print('Your entry fee will be $15')
+else:
+	print("Your entry fee will be $10.")  # Last condition can be 'elif' or 'else'
+
+if age < 6:
+	price = 5
+elif age < 18:
+	price = 10
+elif age < 65:
+	price = 15
+elif age >= 65:
+	price = 10
+
+print(f"Your price will be ${price}.")
+
+requested_toppings = ["olives", "pepperoni"]
+if "olives" in requested_toppings:
+	print("Add olives to the pizza")
+if "extra cheese" in requested_toppings:
+	print("Add cheese to the pizza")
+if "pepperoni" in requested_toppings:
+	print("Add pepperoni to the pizza")
+print("The pizza is done!")

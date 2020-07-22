@@ -33,3 +33,28 @@ for age in ages:
 		print("Sorry, you guys can't come in.")
 else:
 	print("Alright guys, you can come in!")
+
+target_color = "green"  # Target Practice
+if target_color == "green":
+	print("You scored 5 points!")
+
+target_color = "red"
+if target_color == "green":
+	print("That target is worth 5 points.")
+elif target_color == "yellow":
+	print("That target is worth 10 points.")
+elif target_color == "red":
+	print("That target is worth 15 points.")
+
+age = 19
+if age < 2:
+	print("This person is a baby.")  # Stages of Life
+elif age < 4:
+	print*("This child is a toddler.")
+elif age < 13:
+	print("This is a kid.")
+elif age < 20:
+	print("This person is a teenager.")
+elif age < 65:
+	print("This person is an adult.")
+

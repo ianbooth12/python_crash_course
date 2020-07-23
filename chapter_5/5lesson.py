@@ -70,10 +70,8 @@ elif age >= 65:
 print(f"Your price will be ${price}.")
 
 requested_toppings = ["olives", "pepperoni"]
-if "olives" in requested_toppings:
-	print("Add olives to the pizza")
-if "extra cheese" in requested_toppings:
-	print("Add cheese to the pizza")
-if "pepperoni" in requested_toppings:
-	print("Add pepperoni to the pizza")
+offered_toppings = ["olives", "pepperoni", "extra cheese"]
+for topping in offered_toppings:
+	if topping in requested_toppings:
+		print(f"Adding {topping} to the pizza!")
 print("The pizza is done!")

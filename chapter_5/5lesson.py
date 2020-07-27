@@ -59,7 +59,7 @@ else:
 	print("Your entry fee will be $10.")  # Last condition can be 'elif' or 'else'
 
 if age < 6:
-	price = 5
+	price = 0
 elif age < 18:
 	price = 10
 elif age < 65:

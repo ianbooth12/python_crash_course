@@ -48,7 +48,7 @@ elif target_color == "red":
 
 age = 19
 if age < 2:
-	print("This person is a baby.")  # Stages of Life
+	print("This is a baby.")  # Stages of Life
 elif age < 4:
 	print*("This child is a toddler.")
 elif age < 13:

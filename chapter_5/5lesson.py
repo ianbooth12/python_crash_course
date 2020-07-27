@@ -75,3 +75,18 @@ for topping in offered_toppings:
 	if topping in requested_toppings:
 		print(f"Adding {topping} to the pizza!")
 print("The pizza is done!")
+
+requested_toppings.insert(0,"mushrooms")
+for topping in requested_toppings:
+	if topping == "mushrooms":
+		print(f"Sorry, we're out of {topping} right now.")
+	else:
+		print(f"Adding {topping} to the pizza...")
+print("Your pizza is done!")
+
+requested_toppings = []
+if requested_toppings:  # This line checks if the list is not empty
+	for topping in requested_toppings:
+		print(f"Adding {topping}...")
+else:
+	print("Making one plain pizza...")

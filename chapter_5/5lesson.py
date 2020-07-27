@@ -76,9 +76,9 @@ for topping in offered_toppings:
 		print(f"Adding {topping} to the pizza!")
 print("The pizza is done!")
 
-requested_toppings.insert(0,"mushrooms")
+requested_toppings.insert(0,"peppers")
 for topping in requested_toppings:
-	if topping == "mushrooms":
+	if topping == "peppers":
 		print(f"Sorry, we're out of {topping} right now.")
 	else:
 		print(f"Adding {topping} to the pizza...")

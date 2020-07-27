@@ -46,7 +46,7 @@ elif target_color == "yellow":
 elif target_color == "red":
 	print("That target is worth 15 points.")
 
-age = 19
+age = 18
 if age < 2:
 	print("This is a baby.")  # Stages of Life
 elif age < 4:

@@ -50,4 +50,3 @@ print(f"Jad's favorite coding language is {favorite_languages['jad'].title()}.")
  # Asking for undefined variable will yield an error, below is the fix
 speed_value = alien_0.get('speed', 'Speed not defined')
 print(speed_value)
-print(alien_0['speed'])

@@ -1,0 +1,1 @@
+kadin = {'first_name': 'kadin', 'last_name': 'rabo', 'age': 18}

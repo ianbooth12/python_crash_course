@@ -14,6 +14,9 @@ favorite_number = {  # Favorite Numbers
 }
 
 python_terms = {
-	'list_modifiers': '\nCommon modifiers include: \n.pop (removes last term)\
-	\n.append (adds term to the end)\n.insert (Add to a specific position),\
-	
+	'tuples': 'Defined with parenthesis, used for variables not meant to change',
+	'if_statements': 'Used to test for conditions in a list, use elif for\
+	multiple conditions.', 'dictionaries': 'Used to store information within a key,\
+	often for user information'
+	}
+print(python_terms)

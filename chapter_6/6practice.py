@@ -13,10 +13,11 @@ favorite_number = {  # Favorite Numbers
 	'mason': 88,
 }
 
-python_terms = {
-	'tuples': 'Defined with parenthesis, used for variables not meant to change',
-	'if_statements': 'Used to test for conditions in a list, use elif for\
-	multiple conditions.', 'dictionaries': 'Used to store information within a key,\
-	often for user information'
-	}
-print(python_terms)
+python_terms = {  # Glossary
+	'tuples': 'Lists meant for permanent values',
+	'if_statements': 'Tests for conditions in a list',
+	'dictionaries': 'Used to store info within a key'
+}
+for key, value in python_terms.items():
+	print(f"\nTerm: {key.title()}")
+	print(f"Definition: {value.title()}")

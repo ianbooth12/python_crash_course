@@ -50,3 +50,36 @@ print(f"Jad's favorite coding language is {favorite_languages['jad'].title()}.")
  # Asking for undefined variable will yield an error, below is the fix
 speed_value = alien_0.get('speed', 'Speed not defined')
 print(speed_value)
+
+user_0 = {  # Looping through all k,v pairs
+	'username': 'messxnger',
+	'first_name': 'mason',
+	'last_name': 'messenger'
+}
+for k, v in user_0.items():
+	print(f"\nKey: {k}")
+	print(f"Value: {v}")
+
+for name, language in favorite_languages.items():  # Simplifying previous process
+	print(f"\n{name.title()}'s favorite coding language is {language.title()}.")
+
+for name in favorite_languages.keys():  # Looping all KEYS
+	print(name.title())
+
+friends = ['nicolas', 'kavi', 'kadin', 'jad']
+for name in favorite_languages.keys():
+	print(f"Hi, {name.title()}!")
+
+	if name in friends:
+		language = favorite_languages[name].title()
+		print(f"Your favorite language is {language}, right?")
+
+if 'mason' not in favorite_languages.keys():  # Checking for a Key
+	print("Mason, what's your favorite coding language?")
+
+for name in sorted(favorite_languages.keys()):  # Keys in Order
+	print(f'Thanks for letting me know, {name.title()}!')
+
+print("Below is a list of everyone's favorite languages.")
+for v in favorite_languages.values():
+	print(f"{v.title()}")

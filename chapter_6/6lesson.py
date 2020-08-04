@@ -83,3 +83,18 @@ for name in sorted(favorite_languages.keys()):  # Keys in Order
 print("Below is a list of everyone's favorite languages.")
 for v in favorite_languages.values():
 	print(f"{v.title()}")
+
+alien_2 = {
+	'color': 'orange',
+	'points': '20'
+}
+
+aliens = [alien_0, alien_1, alien_2]  # Nesting
+for alien in aliens:
+	print(alien)
+
+aliens = []
+  # Creating a list of duplicated aliens
+for alien_number in range(30):
+	new_alien = {'color': 'green', 'points': 5}
+	append(new_alien)

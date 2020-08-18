@@ -97,4 +97,15 @@ aliens = []
   # Creating a list of duplicated aliens
 for alien_number in range(30):
 	new_alien = {'color': 'green', 'points': 5}
-	append(new_alien)
+	aliens.append(new_alien)
+for alien in aliens[:5]:
+	print(alien)
+print(f"...")
+  # Showing number of aliens
+print(f"There are {len(alien)} aliens in the level right now.")
+
+for alien in aliens[:4]:
+	if alien["color"] == "green":
+		alien ["color"] = "red"
+		alien["points"] = 10
+print(aliens[:5])

@@ -1,4 +1,4 @@
-cars = ["tesla", "audi", "chevy", "ford"]  # A simple if statement
+Ocars = ["tesla", "audi", "chevy", "ford"]  # A simple if statement
 for car in cars:
 	if car == "tesla":
 		print(car.upper())
